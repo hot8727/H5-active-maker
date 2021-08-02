@@ -1,0 +1,37 @@
+{
+    "name": "单一媒资标题内置",
+    "id": 2,
+    "title":"singleMediaAsset",
+    "class":"single_media_asset",
+    "attr": {
+        "content": {
+            "clickType": 2,
+            "clickResult": "",
+            "text": "标题文本",
+            "mediaId": "",
+            "trace": ""
+        }
+    },
+    "positionStyle":{
+        "width": 90,
+        "height": 30,
+        "top": 0,
+        "left": 0,
+        "marginTop": 5,
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5
+    },
+    "baseAttr": {
+        "color":"#ffffff",
+        "align": "center",
+        "paddingTop": 3,
+        "paddingRight": 3,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "backgroundImage": "",
+        "backgroundColor": "#FFFFFF",
+        "backgroundSize": "cover",
+        "borderRadius": 1
+    }
+}

@@ -1,0 +1,215 @@
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 14px;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-size: 12px;
+}
+button {
+  cursor: pointer;
+}
+i,
+em,
+cite {
+  font-style: normal;
+}
+a,
+a:link {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+a:visited {
+}
+a:active,
+a:hover {
+  text-decoration: underline;
+  outline: none;
+}
+a:focus {
+  outline: none;
+}
+input {
+  height: auto;
+  outline: none;
+  vertical-align: middle;
+  line-height: normal;
+}
+textarea {
+  resize: none;
+}
+html {
+  width: 100%;
+  min-height: 100%;
+  font-family: "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+body {
+  min-height: 100%;
+  background: #ffffff;
+  /* background: #f6f6f6; */
+}
+body {
+  text-align: left;
+  font-size: 14px;
+  /* line-height: 0; */
+  color: #000;
+  font-weight: normal;
+}
+div ::-webkit-scrollbar {
+  display: none;
+}
+
+/*flex横向分布不折行*/
+.f {
+  display: -webkit-box; /* Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /*  Firefox (buggy) */
+  display: -ms-flexbox; /*  IE 10 */
+  display: -webkit-flex; /* Chrome 21+ */
+  display: flex;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/*flex横向分布折行*/
+.fw {
+  display: -webkit-box; /* Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /*  Firefox (buggy) */
+  display: -ms-flexbox; /*  IE 10 */
+  display: -webkit-flex; /* Chrome 21+ */
+  display: flex;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*flex纵向分布不折行*/
+.g {
+  display: -webkit-box; /* Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /*  Firefox (buggy) */
+  display: -ms-flexbox; /*  IE 10 */
+  display: -webkit-flex; /* Chrome 21+ */
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/*flex纵向分布折行*/
+.gw {
+  display: -webkit-box; /* Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /*  Firefox (buggy) */
+  display: -ms-flexbox; /*  IE 10 */
+  display: -webkit-flex; /* Chrome 21+ */
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*副轴对齐方式*/
+.t {
+  -webkit-box-align: start;
+  -moz-align-items: start;
+  -webkit-align-items: start;
+  align-items: start;
+}
+.c {
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.b {
+  -webkit-box-align: end;
+  -moz-align-items: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+/*主轴对齐方式*/
+.rl {
+  -webkit-box-pack: start;
+  -moz-justify-content: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+.rc {
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.rr {
+  -webkit-box-pack: end;
+  -moz-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.rb {
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ra {
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+/*两端对齐，项目之间的间隔都相等*/

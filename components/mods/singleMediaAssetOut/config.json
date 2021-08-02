@@ -1,0 +1,38 @@
+{
+    "name": "单一媒资标题外置",
+    "id": 3,
+    "title":"singleMediaAssetOut",
+    "class":"single_media_asset_out",
+    "attr": {
+        "content": {
+            "clickType": 2,
+            "clickResult": "",
+            "text": "示例标题xxxxxxxxxxxxxxxxxxx",
+            "subTitle": "副标题yyyyyyyyyyyyyy",
+            "mediaId": "",
+            "trace": ""
+        }
+    },
+    "positionStyle":{
+        "width": 90,
+        "height": 45,
+        "top": 0,
+        "left": 0,
+        "marginTop": 5,
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5
+    },
+    "baseAttr": {
+        "color":"#ffffff",
+        "align": "center",
+        "paddingTop": 3,
+        "paddingRight": 3,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "backgroundImage": "",
+        "backgroundColor": "#FFFFFF",
+        "backgroundSize": "cover",
+        "borderRadius": 1
+    }
+}

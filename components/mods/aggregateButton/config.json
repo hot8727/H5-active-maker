@@ -1,0 +1,14 @@
+{
+    "name":"按钮",
+    "id":1,
+    "title":"aggregateButton",
+    "class":"aggregate_button",
+    "attr":{
+        "content": {
+            "clickType": 1,
+            "clickResult": "",
+            "text": "内容文本",
+            "trace": ""
+        }
+    }
+}

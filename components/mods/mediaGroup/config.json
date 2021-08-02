@@ -1,0 +1,44 @@
+{
+    "name": "媒资专区",
+    "id": 4,
+    "title":"mediaGroup",
+    "class":"media_group",
+    "attr": {
+        "content": {
+            "titleShow":1,
+            "title": "示例标题",
+            "subTitle": "更多",
+            "titleColor": "#000000",
+            "subTitleColor": "#696969",
+            "subTitleTrace":"",
+            "mediaId": "",
+            "mediaTrace": "",
+            "specialId":"48",
+            "typeId":"f8f1fe48eacc4a3e877277fd3a74d9d4",
+            "pageNum":1,
+            "pageSize":4
+        }
+    },
+    "positionStyle":{
+        "width": 90,
+        "height": "",
+        "top": 0,
+        "left": 0,
+        "marginTop": 5,
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5
+    },
+    "baseAttr": {
+        "color":"#ffffff",
+        "align": "center",
+        "paddingTop": 3,
+        "paddingRight": 3,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "backgroundImage": "",
+        "backgroundColor": "#FFFFFF",
+        "backgroundSize": "cover",
+        "borderRadius": 1
+    }
+}
